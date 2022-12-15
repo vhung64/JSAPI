@@ -17,7 +17,7 @@ const getTodos = async () => {
 
 }
 const renderTodo = arr => {
-    console.log(arr);
+    //console.log(arr);
     todolist.innerHTML = '';
     if (arr.length == 0) {
         todolist.innerHTML = '<li>Khong co cong viec</li>';
